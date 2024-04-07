@@ -127,7 +127,7 @@ def logged_in_menu(username):
 #VIEW THE DETAILS OF AVAILABLE PROPERTIES FOR RENT
 def view_available_rentals():
     clear_screen()  
-    print("Available Rentals: Sorted Price From Low to High")
+    print("Available Rentals:")
     for index, rental in enumerate(available_rentals):
         name = rental['name']
         price = rental['price_per_night']
