@@ -247,7 +247,8 @@ def bookings(username):
 
 #ADD BALANCE TO USER
 def balance(username):
-    clear_screen()  
+    clear_screen() 
+    print("-USER BALANCE-") 
     print(f"Current balance: ${user_accounts[username]['money']}")
     choice = input("Do you want to top up your account? (yes/no): ").lower()
     if choice == 'yes':
